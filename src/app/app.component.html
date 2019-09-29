@@ -1,0 +1,15 @@
+
+<h2>Angular MCQ TEST: </h2>
+<form [formGroup]="examForm" (ngSubmit)="Submit()">
+<ul>
+  <li *ngFor="let item of data; index as i">
+    <h2>{{i+1}}.  {{item.question}}</h2>
+    A.<input type="radio" formControlName="option{{i+1}}" value="{{item.op1}}">{{item.op1}}<br>
+    B.<input type="radio" formControlName="option{{i+1}}" value="{{item.op2}}">{{item.op2}}<br>
+    C.<input type="radio" formControlName="option{{i+1}}" value="{{item.op3}}">{{item.op3}}<br>
+    D.<input type="radio" formControlName="option{{i+1}}" value="{{item.op4}}">{{item.op4}}
+  </li>
+</ul>
+<button value="submit">Submit</button>
+</form>
+<router-outlet></router-outlet>

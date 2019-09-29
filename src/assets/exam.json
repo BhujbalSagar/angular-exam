@@ -1,0 +1,42 @@
+[
+    {
+        "question":"How does Angular 4 improved error handling, when an error is caused by something in a template?",
+        "op1" : "By enabling TypeScript's StrictNullChecks",
+        "op2" : "By creating flattened versions of Angular modules",
+        "op3" : "By generating source maps in terms of original template",
+        "op4" : "None of the mentioned",
+        "ans" : "By creating flattened versions of Angular modules"
+    },
+    {
+        "question":"The . . . . . decorator allows us to define the pipe name that is globally available for use in any template in the across application.",
+        "op1" : "pipeName",
+        "op2" : "pipeDeco",
+        "op3" : "Pipe",
+        "op4" : "None",
+        "ans" : "Pipe"
+    },
+    {
+        "question":"Observables help you manage . . . . . . . . data.",
+        "op1" : "synchronous",
+        "op2" : "asynchronous",
+        "op3" : "Both asynchronous & synchronous",
+        "op4" : "None of above",
+        "ans" : "asynchronous"
+    },
+    {
+        "question":"Where would you put it?",
+        "op1" : "In the Component",
+        "op2" : "In the Template",
+        "op3" : "In the Injectable decorator",
+        "op4" : "In the module",
+        "ans" : "In the Injectable decorator"
+    },
+    {
+        "question":"How would you display a list of Employees on a webpage along with where they were in the list?",
+        "op1" : "Loop through and print the index",
+        "op2" : "Loop through and print the employees",
+        "op3" : "Loop through and print the index and the employee",
+        "op4" : "Pass both the index and the employee to a web service",
+        "ans" : "Loop through and print the index and the employee"
+    }
+]
